@@ -1,0 +1,33 @@
+ * {
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+ }
+  .row-fav {
+    padding-bottom:5px;
+ }
+ #fav{
+   color: #2ba6cb;
+ }
+ul li {
+  width: 100%;
+}
+.parrafo {
+  padding-top: 5px;
+  text-align: justify;
+}
+.contenido{
+  background-color: #E3655B;
+  color: #ffffff;
+}
+
+.contenido-left{
+  background-color: #52414C;
+  color: #ffffff;
+  padding: 5px;
+}
+.contenido-right{
+  background-color: #596157;
+  color: #ffffff;
+  padding: 10px;
+
+}
