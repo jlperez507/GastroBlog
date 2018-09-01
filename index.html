@@ -11,11 +11,15 @@
 </head>
 <body>
       <div class="row contenido">
-        <div class="columns large-12 float-left">
-          <h2>Panama Food</h2>
-          <h4>Food for life</h4>
+        <div class="columns small-12 medium-12 large-12 float-left row-titulo">
+          <div class="row">
+            <div class="colmuns small-6 medium-5 large-4 col-titulo" style="padding:10px">
+              <h2>Panama Food</h2>
+              <h4>Food for life</h4>
+            </div>
+          </div>
         </div>
-        <div class="small-4 medium-4 large-4 columns contenido-left">
+        <div class="hide-for-small-only hide-for-medium-only large-4 columns contenido-left">
           <div class="row">
               <div class="columns">
                 <div class="input-group">
@@ -33,34 +37,98 @@
               </ul>
             </div>
           </div>
-          <div class="row">
+            <div class="row row-fav-div">
+                <div class="large-12 columns">
+                  <h5 id="fav">Favoritos</h5>
+                </div>
               <div class="large-12 columns">
-                <h6 id="fav">Favoritos</h6>
+                <div class="row row-fav">
+                      <div class="columns"><a href="#"><img src="img/verduras.jpg"></a></div>
+                      <div class="columns"><a href="#"><img src="img/carnes.jpg"></a></div>
+                      <div class="columns"><a href="#"><img src="img/pescado.jpg"></a></div>
+                </div>
+                <div class="row row-fav">
+                  <div class="columns"><a href="#"><img src="img/pasta.jpg"></a></div>
+                  <div class="columns"><a href="#"><img src="img/legumbre.jpg"></a></div>
+                  <div class="columns"><a href="#"><img src="img/salsas.jpg"></a></div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row row-fav-div">
+              <div class="large-12 columns">
+                <h5 id="fav">Historial</h5>
               </div>
             <div class="large-12 columns">
-              <div class="row row-fav">
-                    <div class="columns"><img src="img/verduras.jpg"></div>
-                    <div class="columns"><img src="img/carnes.jpg"></div>
-                    <div class="columns"><img src="img/pescado.jpg"></div>
-              </div>
-              <div class="row row-fav">
-                <div class="columns"><img src="img/pasta.jpg"></div>
-                <div class="columns"><img src="img/legumbre.jpg"></div>
-                <div class="columns"><img src="img/salsas.jpg"></div>
+              <div class="row" style="padding-left:16px;">
+                    <div class="columns large-12 histo"><a href="#">Diez Razones Para Comer Aceitunas</a></div>
+                    <div class="columns large-12 histo"><a href="#">Ponche de Citricos</a></div>
+                    <div class="columns large-12 histo"><a href="#">Lasaña de pollo</a></div>
+                    <div class="columns large-12 histo"><a href="#">Claves Para un Arroz Perfecto</a></div>
+
+                    <div class="columns large-12 histo"><a href="#">Almuerzos Para Llevar al Trabajo</a></div>
+                    <div class="columns large-12 histo"><a href="#">Caldo de Pescado y Marisco</a></div>
+                    <div class="columns large-12 histo"><a href="#">Chapsui de Pollo</a></div>
+                    <div class="columns large-12 histo"><a href="#">Crema de Alcachofas</a></div>
+                    <div class="columns large-12 histo"><a href="#">Garbanzos Guisados</a></div>
+                    <div class="columns large-12 histo"><a href="#">Ceviche Vegano</a></div>
+                    <div class="columns large-12 histo"><a href="#">Fideos con Queso de Cabra</a></div>
+
               </div>
           </div>
         </div>
+
         </div>
-        <div class="small-8 medium-8 large-8 columns contenido-right">
+        <div class="small-12 medium-12 large-8 columns contenido-right">
           <div class="row">
-            <div class="large-12 columns">
-              <div class="card float-center" style="width: 600px;">
+            <div class="small-12 medium-12 large-12 columns">
+              <div class="card float-center card-p" style="max-width: 600px;">
                 <div class="card-divider">
                   <h4>Aguacate relleno</h4>
                 </div>
                 <img class="float-center" src="img/aguacate.jpg">
                 <div class="card-section parrafo">
                   <p>Esta receta es una de la favoritas y fáciles, tan solo tienes que vaciar medio aguacate, picar la carne y mézclala con otros ingredientes que te gusten (por ejemplo tomate, pimientos de piquillo picados, manzana, perejil fresco, cilantro fresco, cebolla de primavera, ajetes tiernos, maíz dulce, zanahoria rallada…) y sírvetelo en la cáscara del aguacate.</p>
+                  <div class="input-group">
+                    <span class="input-group-label"><i class="fa fa-users"></i></span>
+                    <textarea class="input-group-field" placeholder="Comentarios"></textarea>
+                  </div>
+                  <a class="button float-right" href="#">Publicar</a>
+                </div>
+                <div class="card-section">
+                  <div class="media-object">
+                    <div class="media-object-section">
+                      <div class="thumbnail">
+                        <img src="img/img_avatar2.png" style="width:85px">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam molestie mi non dapibus. Duis eget turpis felis.</p>
+                    </div>
+                  </div>
+
+                  <div class="media-object">
+                    <div class="media-object-section">
+                      <div class="thumbnail">
+                        <img src="img/img_avatar5.png" style="width:85px">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam molestie mi non dapibus. Duis eget turpis felis.</p>
+                    </div>
+                  </div>
+
+                  <div class="media-object">
+                    <div class="media-object-section">
+                      <div class="thumbnail">
+                        <img src="img/img_avatar6.png" style="width:85px;">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam molestie mi non dapibus. Duis eget turpis felis.</p>
+                    </div>
+                  </div>
+
                 </div>
               </div>
 
@@ -68,17 +136,59 @@
           </div>
 
           <div class="row">
-            <div class="large-12 columns">
-              <div class="card float-center" style="width: 600px;">
+            <div class="small-12 medium-12 large-12 columns">
+              <div class="card float-center card-p" style="max-width: 600px;">
                 <div class="card-divider">
                   <h4>Espárragos enrollados</h4>
                 </div>
                   <img class="float-center" src="img/esparrago.jpg">
                 <div class="card-section parrafo">
                     <p>Extiende la lámina de hojaldre y córtala en 8 cuadrados del mismo tamaño. Haz rollitos con un trozo de beicon y 3 espárragos. Envuélvelos y ciérralos presionando los extremos del hojaldre. Pinta este con el huevo batido y salpimienta y hornea 15 min en el horno precalentado a 220º C, hasta que el hojaldre se dore. </p>
+                    <div class="input-group">
+                      <span class="input-group-label"><i class="fa fa-users"></i></span>
+                      <textarea class="input-group-field" placeholder="Comentarios"></textarea>
+                    </div>
+                    <a class="button float-right" href="#">Publicar</a>
                 </div>
+
+                <div class="card-section">
+                  <div class="media-object">
+                    <div class="media-object-section">
+                      <div class="thumbnail">
+                        <img src="img/img_avatar2.png" style="width:85px">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam molestie mi non dapibus. Duis eget turpis felis.</p>
+                    </div>
+                  </div>
+
+                  <div class="media-object">
+                    <div class="media-object-section">
+                      <div class="thumbnail">
+                        <img src="img/img_avatar5.png" style="width:85px">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam molestie mi non dapibus. Duis eget turpis felis.</p>
+                    </div>
+                  </div>
+
+                  <div class="media-object">
+                    <div class="media-object-section">
+                      <div class="thumbnail">
+                        <img src="img/img_avatar6.png" style="width:85px;">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquam molestie mi non dapibus. Duis eget turpis felis.</p>
+                    </div>
+                  </div>
+
+                </div>
+
               </div>
-              
+
             </div>
           </div>
 
